@@ -1,0 +1,70 @@
+.nav-menu{
+    width:73%;
+}
+
+.nav-menu__list{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-menu__item-txt{
+    font-size:12px;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    margin-right:90px;
+    color:#fff; 
+}
+.nav-menu__item-txt--active{
+    color:#ec1e79
+}
+
+.nav-menu__item-txt:before{
+    content:'';
+    width: 22px;
+    height:18px;
+    display:flex;
+    margin-right: 15px;
+    background:url(../../img/sprites/spritesheet.png)
+}
+
+.nav-menu__item-txt--main:before{
+    background-position:151px -4px;
+}
+.nav-menu__item-txt--reviews:before{
+    background-position:26px -6px;
+}
+.nav-menu__item-txt--tariffs:before{
+    background-position:90px 56px;
+    
+}
+
+.nav-menu__item-txt--reviews:hover:before {
+    background-position: -125px -6px;
+}
+
+.nav-menu__item-txt--tariffs:hover:before {
+    background-position: -63px -5px;
+}
+
+.nav-menu__item-txt:hover{
+    color:#ec1e79;
+}
+
+.contacts__hours:hover .listdown{
+    display:block;
+}
+.listdown{
+    position:absolute;
+    top:20px;    
+}
+.listdown__menu{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+

@@ -1,0 +1,67 @@
+.wrapper__intro {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url('../../img/intro_background.png') center center / cover no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation: animation_intro .9s .4s;
+}
+
+.intro__pic{
+    max-width: 100%;
+    margin-bottom: 29px;
+}
+
+.intro__button{
+    border:solid 3px #ec1e79;
+    padding:17px 23px;
+    color:#ec1e79;
+    text-decoration:none;
+    font-family: 'Gotham Pro';
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    transition: .2s;
+
+}
+.intro__button:hover{
+    background: #ec1e79;
+    color:#fff;
+}
+
+
+
+@keyframes animation_intro {
+    0%{
+        opacity:0%;
+        transform: scale(.2) rotate(30deg)
+    }
+    40%{
+       transform: rotate(-20deg);
+       }
+    60%{
+        transform: rotate(5deg);
+    }
+    80%{
+        transform: scale(1);
+    }
+    100%{
+        opacity: 1;
+    }
+
+}

@@ -1,0 +1,17 @@
+.header__main{
+    background: #27273e;
+    max-width: 100%;
+    margin:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__container{
+    min-height:76px;
+    margin-top:0px;
+    width:1200px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
