@@ -38,6 +38,11 @@
     width:100%;
     border-radius: 7px;
     border:1px solid black;
+    outline:none;
+}
+
+.formas__input:focus{
+    border-color: #ec1e79;
 }
 .formas__textarea{
     padding-top: 9px;
