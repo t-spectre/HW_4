@@ -1,0 +1,22 @@
+.adv__reviews{
+    padding: 33px 11px;
+    margin-bottom: 30px;
+    text-align: center;
+    background: url(../../img/exclamations.png) center center no-repeat;
+    background-size: cover;
+}
+
+.adv__reviews--text{
+    font-family: Gotham Pro;
+    font-size: 18px;
+    color:#fff;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+.adv__reviews--text-red{
+    font-weight: 700;
+    color:#ec1e79;
+}
+
+/* "*__reviews"compounded classes, can be from differents block */

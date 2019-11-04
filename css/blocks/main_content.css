@@ -7,23 +7,30 @@
 .main{
     display:flex;
     flex-direction: column;
-    width:70%
+    width:76%
 }
 
-.news__title{
-    margin-bottom: 75px;
+.news .news__title{
+    margin-bottom: 45px;
     font-size: 49px;
     color: #221f1f;
     font-weight: bold;
 }
 
+.reviews__section, .reviews__title, .tariffs__section{
+    margin-bottom: 50px;
+    font-size: 49px;
+    color: #221f1f;
+    font-weight: bold;
+}
 .news__content{
-    margin-bottom: 75px;
+    margin-bottom: 40px;
 }
 .news__item{
     display:flex;
     padding-top:25px;
-    padding-bottom: 25px;
+    padding-bottom: 19px;
+    padding-left:11px;
     align-items: center;
     border-bottom: 1px solid #f5f5f6;
 }
@@ -44,7 +51,7 @@
 }
 
 .news__item--desc{
-    width:75%;
+    width:52%;
     vertical-align: middle;
 }
 
@@ -70,4 +77,175 @@
     font-weight: 300;
     font-style: normal;
     line-height: 30px;
+}
+
+.reviews__content{
+    margin-bottom: 55px;
+}
+
+.reviews__item{
+    display: flex;
+    border-bottom: 2px solid #f5f5f5;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.reviews__item:first-child{
+    padding-top: 0px;
+}
+
+.reviews__item--pic{
+    margin-right: 20px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow:hidden;
+}
+
+.reviews__item--png{
+    display:block;
+    max-width: 100%;
+}
+
+.reviews__item--picbad{
+    display: block;
+    position:relative;
+    background: center no-repeat #f5f5f5;
+}
+.reviews__item--pngbad{
+    position: absolute;
+    margin:auto;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+.reviews__item--desc{
+    vertical-align: middle;
+    width:74%;
+}
+
+.reviews__item--time{
+    font-size:14px;
+    font-family: Gotham Pro;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    line-height: 21px;
+}
+
+.reviews__item--title{
+    font-family: Gotham Pro;
+    font-size:18px;
+    font-weight: 700;
+    line-height: 21px;
+    margin-bottom: 27px;
+}
+
+.reviews__item--content{
+    font-family: Gotham Pro;
+    font-size:18px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+
+.tariffs__subtext{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    line-height: 21px;
+}
+
+.tariffs__text{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.tariffs__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tariffs__item{
+    width:29%;
+    text-align: center;
+    margin: 0px 22px 71px 0px;
+}
+
+.tariffs__title{
+
+}
+
+.tariffs__main-div{
+    display:flex;
+    position: relative;
+    width:100%;
+    height: 166px;
+    justify-content: center;
+    align-items: center;
+    background: center center no-repeat;
+    margin-bottom:30px;
+    line-height: 32px;
+    overflow:hidden;
+}
+
+.tariffs__pic-1{
+    background-image: url(../../img/tariffs_1.png);
+}
+
+.tariffs__pic-2{
+    background-image: url(../../img/tariffs_2.png);
+}
+
+.tariffs__pic-3{
+    background-image: url(../../img/tariffs_6.png);
+}
+
+.tariffs__pic-4{
+    background-image: url(../../img/tariffs_4.png);
+}
+
+.tariffs__pic-5{
+    background-image: url(../../img/tariffs_3.png);
+}
+
+.tariffs__pic-6{
+    background-image: url(../../img/tariffs_5.png);
+}
+
+.tariffs__main-div:before{
+    content:"";
+    opacity: .8;
+    background-color: #27273e;
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+.tariffs__h3{
+    z-index:10;
+    display: flex;
+    max-width: 180px;
+    color:#5dd1f7;
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.tariffs__subtext--VIP:before{
+    content:"VIP";
+    color: #ec1e79;
+}
+
+.tariffs{
+    margin-bottom: 69px;
+}
+
+.reviews__section .formas__input, .reviews__section .formas__radio--title{
+    font-size: 16px;
 }

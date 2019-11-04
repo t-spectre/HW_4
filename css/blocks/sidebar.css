@@ -1,10 +1,10 @@
 .sidebar{
-    width:30%;
+    width:24%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 30px;
+    margin-right: 12px;
     margin-bottom: 30px;
 }
 
@@ -15,22 +15,22 @@
 .maincontent{
     border: 1px solid #e8e9ed;
     text-align: center;
-    padding:30px;
-    margin-bottom: 20px;
+    padding:37px;
+    margin-bottom: 0px;
 }
 
 .maincontent__title{
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 27px;
 }
 
 .maincontent__subtitle{
     font-size: 11px;
     letter-spacing: 2.4px;
     text-transform: uppercase;
-    margin-bottom: 28px;
+    margin-bottom: 16px;
 }
 
 .maincontent__subtitle-2{
@@ -52,7 +52,7 @@
 .maincontent__list--item{
     text-align: left;
     margin-bottom: 10px;
-    margin-left: 10px;
+    margin-left: 22px;
 }
 
 .maincontent__list--item:before{
@@ -60,4 +60,8 @@
         color: #ec1e79;
         display: inline-flex;
         margin-right: 30px;
+}
+
+.nav-menu__item2{
+    margin-right: 95px;
 }

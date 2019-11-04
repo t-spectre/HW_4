@@ -7,7 +7,7 @@
 .footer__contents{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     min-height: 80px;
 }
 
@@ -18,4 +18,8 @@
     font-style: normal;
     text-align: left;
     width: 22%;
+}
+
+.footer__logotype{
+    padding-right: 41px;
 }

@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-between;
+    margin-top:auto;
+    margin-right: 38px;
 }
 
 .contacts__phone{
@@ -19,7 +21,6 @@
     position:relative;
     flex-direction:column;
     align-items: flex-end;
-    margin-bottom: -30px;
 }
 
 .hours{
@@ -28,7 +29,8 @@
     font-weight: 700;
     font-style: normal;
     color: rgba(236, 30, 121, 0.702);
-    margin-bottom: 15px;
+    text-decoration: none;
+
 }
 
 .listdown{

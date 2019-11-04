@@ -1,13 +1,24 @@
 .nav-menu{
-    width:73%;
+    width:48%;
 }
 
 .nav-menu__list{
     display:flex;
     align-items: center;
     justify-content: flex-start;
+    margin-right: 3px;
 }
 
+.nav-menu__item{
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+    padding-top:0px;
+    padding-left:1px;
+}
+.nav-menu__item:last-child{
+    margin-right: 0;
+}
 .nav-menu__item-txt{
     font-size:12px;
     letter-spacing: 1.2px;
@@ -68,3 +79,66 @@
     align-items: flex-end;
 }
 
+.nav-menu__txt2{
+    font-family: Gotham Pro;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    align-items: center;
+    color: #ec1e79;
+    text-decoration: none;
+    text-transform: uppercase;
+    display:flex;
+}
+
+.nav-menu__txt2:hover{
+    color:black;
+}
+
+.nav-menu__txt2:before{
+    display: flex;
+    background: url(../../img/sprites/spritesheet.png);
+    width:20px;
+    height: 18px;
+    content:'';
+    margin-right: 20px;
+}
+
+.nav-menu__main:before{
+    background-position: -33px -4px;
+}
+
+.nav-menu__reviews:before{
+    background-position: 58px -6px;
+}
+
+
+.nav-menu__tariffs:before{
+    background-position: -63px -4px;   
+}
+
+
+.nav-menu__tariffs:hover:before {
+    background-position: -94px -4px;   
+}
+
+
+.nav-menu__main:hover:before{
+    background-position: -4px -4px;
+}
+
+.nav-menu__reviews:hover:before{
+    background-position: 26px -6px;
+}
+
+.nav-menu__txt2.nav-menu__active{
+    color:black;
+}
+
+.nav-menu__reviews.nav-menu__active:before{
+    background-position: 26px -6px;
+}
+
+.nav-menu__tariffs.nav-menu__active:before{
+    background-position: 89px -5px;
+}
