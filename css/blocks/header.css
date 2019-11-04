@@ -7,11 +7,15 @@
     justify-content: center;
 }
 .header__container{
-    min-height:76px;
+    min-height:52px;
     margin-top:0px;
     width:1200px;
     display:flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.header__bottom{
+    margin-bottom: 69px;
 }
 

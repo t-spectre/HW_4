@@ -1,0 +1,120 @@
+.formas{
+    background: #f5f5f5;
+    max-width: 768px;
+    border-radius: 7px;
+    padding:51px 100px;
+    margin-bottom: 50px;
+}
+.formas__title{
+    font-size:49px;
+    color: #221f1f;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+.formas__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 21px;
+}
+
+.formas__item{
+    flex:1;
+    margin-right: 23px;
+}
+.formas__item:last-child{
+    margin-right: 0px;
+}
+
+.formas__item--title{
+    font-family: Gotham Pro;
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
+
+.formas__input{
+    padding: 16px 10px;
+    background: #fff;
+    width:100%;
+    border-radius: 7px;
+    border:1px solid black;
+}
+.formas__textarea{
+    padding-top: 9px;
+    min-height: 90px;
+    resize: vertical;
+}
+
+.formas_btn{
+    width:149px;
+    height:45px;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    background-color: #27273e;
+    color:#fff;
+    border-radius: 5px;
+    border: 1px solid #27273e;
+}
+.formas_btn:hover{
+    cursor: pointer;
+    border:#ec1e79;
+    background-color: #ec1e79;
+    
+}
+
+.formas__radio-btn {
+font-size: 14px;
+font-weight: normal;
+margin-bottom: 15px;
+}
+
+.formas__radio--bfr{
+width:20px;
+height: 20px;
+border-radius: 50%;
+border:1px solid #c9c9c9;
+margin-right:5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.formas__radio--bfr:before{
+    content:"";
+    display:block;
+    border-radius: 50%;
+    width:8px;
+    height:8px;
+
+}
+.formas__Answer{
+    display:flex;
+    margin-right: 20px;
+}
+.formas__button{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.formas__yesno{
+    display: flex;
+}
+
+.formas__radio--input{
+    appearance: none;
+    -webkit-appearance: none;
+} 
+
+.formas__radio--input:checked + .formas__radio--bfr:before {
+    background-color: #ec1e79;
+    transition: 2s;
+}
+
+.formas__radio--input:checked + .formas__radio--bfr {
+    border: 1px solid #ec1e79;
+    transition: 2s;
+}
